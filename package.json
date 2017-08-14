@@ -36,5 +36,6 @@
   "dependencies": {
     "lodash": "^4.17.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "src/index.js"
 }
