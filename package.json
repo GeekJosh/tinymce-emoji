@@ -1,9 +1,14 @@
 {
   "name": "tinymce-emoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tinymce plugin to add a native emoji helper dialog",
   "keywords": [
-    "tinymce", "wysiwyg", "emoji", "emoticon", "smiley", "icon"
+    "tinymce",
+    "wysiwyg",
+    "emoji",
+    "emoticon",
+    "smiley",
+    "icon"
   ],
   "repository": {
     "type": "git",
