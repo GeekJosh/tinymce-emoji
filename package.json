@@ -1,13 +1,24 @@
 {
   "name": "tinymce-emoji",
   "version": "0.0.1",
-  "description": "tinymceEmoji TinyMCE plugin repo",
+  "description": "A tinymce plugin to add a native emoji helper dialog",
+  "keywords": [
+    "tinymce", "wysiwyg", "emoji", "emoticon", "smiley", "icon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeekJosh/tinymce-emoji"
+  },
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --open --inline",
     "lint": "eslint 'src/**/*.js'",
     "build": "webpack --config config/webpack.config.prod.js --progress"
   },
-  "author": "",
+  "author": "Josh Johnson (geekjosh)",
+  "bugs": {
+    "url": "https://github.com/GeekJosh/tinymce-emoji/issues",
+    "email": "sicjoshsic@gmail.com"
+  },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
@@ -17,6 +28,7 @@
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
+    "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.26.0",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^1.16.2"

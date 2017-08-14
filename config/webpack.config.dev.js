@@ -8,6 +8,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: 'babel-loader'
+      },
+      {
+        test: /\.(gif|jpe?g|png)$/,
+        use: 'file-loader'
       }
     ]
   },
