@@ -14,22 +14,24 @@ npm install --save tinymce-emoji
 ```
 
 Add to your tinymce init:
-```
+```JavaScript
+import 'tinymce-emoji'
+
 tinymce.init({
-    ...
-    external_plugins: {
-        'emoji': require('tinymce-emoji')
-    }
+    plugins: [
+        'tinymceEmoji'
+    ],
+    toolbar: 'tinymceEmoji'
 })
 ```
 
 You can also configure a few options for tinymce-emoji by adding them to your tinymce init, like so:
-```
+```JavaScript
 tinymce.init({
-    ...
-    external_plugins: {
-        'emoji': require('tinymce-emoji')
-    },
+    plugins: [
+        'tinymceEmoji'
+    ],
+    toolbar: 'tinymceEmoji',
     emoji_add_space: false, // emoji are quite wide, so a space is added automatically after each by default; this disables that extra space
     emoji_show_groups: false,   // hides the tabs and dsiplays all emojis on one page
     emoji_show_subgroups: false,    // hides the subheadings
