@@ -15,7 +15,7 @@
     "url": "https://github.com/GeekJosh/tinymce-emoji"
   },
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --open --inline",
+    "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --open --inline --port 8081",
     "lint": "eslint 'src/**/*.js'",
     "build": "webpack --config config/webpack.config.prod.js --progress"
   },
@@ -39,7 +39,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "tinymce": "^4.6.5"
   },
   "license": "MIT",
   "main": "src/index.js"
