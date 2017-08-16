@@ -16,6 +16,7 @@ npm install --save tinymce-emoji
 Add to your tinymce init:
 ```JavaScript
 import 'tinymce-emoji'
+import 'tinymce'    // always import tinymce after any plugins
 
 tinymce.init({
     plugins: [
@@ -23,6 +24,20 @@ tinymce.init({
     ],
     toolbar: 'tinymceEmoji'
 })
+```
+
+Alternatively, you can install this plugin via `script` tags:
+```HTML
+<script src="path/to/tinymce-emoji/dist/plugin.min.js"></script>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        plugins: [
+            'tinymceEmoji'
+        ],
+        toolbar: 'tinymceEmoji'
+    })
+</script>
 ```
 
 You can also configure a few options for tinymce-emoji by adding them to your tinymce init, like so:
