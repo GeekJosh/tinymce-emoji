@@ -1,4 +1,6 @@
 # tinymce-emoji
+[![Latest Stable Version](https://img.shields.io/npm/v/tinymce-emoji.svg?style=flat)](https://www.npmjs.com/package/tinymce-emoji)
+[![NPM Downloads](https://img.shields.io/npm/dt/tinymce-emoji.svg?style=flat)](https://www.npmjs.com/package/tinymce-emoji)
 
 This simple tinymce plugin adds a helper dialog to insert native emojis in to your content.
 
