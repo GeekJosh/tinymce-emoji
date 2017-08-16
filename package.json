@@ -1,6 +1,6 @@
 {
   "name": "tinymce-emoji",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tinymce plugin to add a native emoji helper dialog",
   "keywords": [
     "tinymce",
