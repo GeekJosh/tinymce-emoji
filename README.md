@@ -6,6 +6,8 @@ This simple tinymce plugin adds a helper dialog to insert native emojis in to yo
 
 All emoji were stripped from [this test doc](http://unicode.org/Public/emoji/5.0/emoji-test.txt) made available by [The Unicode Consortium](http://unicode.org/)
 
+[**Example on JSFiddle**](https://jsfiddle.net/wpd2umt0/1/)
+
 ## Usage
 
 If you don't feel like trying to make sense of [the world's worst documentaton](https://www.tinymce.com/docs/), then try this:
