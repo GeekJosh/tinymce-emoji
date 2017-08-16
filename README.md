@@ -9,9 +9,6 @@ All emoji were stripped from [this test doc](http://unicode.org/Public/emoji/5.0
 [**Example on JSFiddle**](https://jsfiddle.net/wpd2umt0/1/)
 
 ## Usage
-
-If you don't feel like trying to make sense of [the world's worst documentaton](https://www.tinymce.com/docs/), then try this:
-
 Install via npm:
 ```
 npm install --save tinymce-emoji
@@ -61,4 +58,4 @@ tinymce.init({
 *NOTE: by default, all options above are set to `true`*
 
 ### A note about speed
-Unfortunately, the first time you load the emoji dialog during each editor session, it takes a few seconds to display, during which time the browser window is frozen. I have been unable to resolve this issue and the aforementioned [world's worst docs](https://www.tinymce.com/docs/api/tinymce.ui) didn't help. If you're a developer who knows how to resolve this, please do make a PR!
+Unfortunately, the first time you load the emoji dialog during each editor session, it takes a few seconds to display, during which time the browser window is frozen. I have been unable to resolve this issue and the [world's worst docs](https://www.tinymce.com/docs/api/tinymce.ui) didn't help. If you're a developer who knows how to resolve this, please do make a PR!
