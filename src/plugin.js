@@ -49,6 +49,7 @@ const plugin = (editor) => {
                   let char = target.getAttribute('data-chr');
                   console.log(add_space)
                   editor.execCommand('mceInsertContent', false, char + (add_space ? ' ' : ''));
+                  editor.windowManager.close();
                 }
               }
             }
@@ -67,6 +68,7 @@ const plugin = (editor) => {
                 let char = target.getAttribute('data-chr');
                 console.log(add_space)
                 editor.execCommand('mceInsertContent', false, char + (add_space ? ' ' : ''));
+                editor.windowManager.close();
               }
             }
           }
