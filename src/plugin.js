@@ -87,7 +87,7 @@ const plugin = (editor) => {
     getBody.then(body => {
       var win = editor.windowManager.open({
         autoScroll: true,
-        width: show_tab_icons ? 900 : 800,
+        width: show_tab_icons ? 980 : 800,
         height: 600,
         title: 'Insert Emoji',
         bodyType: show_groups ? 'tabPanel' : 'container',
